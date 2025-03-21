@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  height: 100%;
+  width: 100yw;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.button_style {
+  margin-left: 10px !important;
+  margin-right: 10px;
+}
+
+.centerTable {
+  margin: 0px auto;
+}
+
+h2 {
+    color: #3f51b5;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Keyframes for slide-in animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
