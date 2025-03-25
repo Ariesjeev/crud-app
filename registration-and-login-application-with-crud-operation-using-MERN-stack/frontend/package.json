@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "dev": "npm start"
   },
-  "author": "Foram Sojitra",
+  "author": "forum xtraedge",
   "license": "ISC",
   "eslintConfig": {
     "extends": "react-app"
